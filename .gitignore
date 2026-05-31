@@ -1,0 +1,17 @@
+# Dependencies (re-installed with `npm install`, never committed)
+node_modules/
+
+# Build output (Netlify rebuilds this; no need to track it)
+frontend/dist/
+dist/
+
+# Java compiled classes
+*.class
+
+# macOS / editor noise
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*

@@ -1,0 +1,9 @@
+# Tells Netlify how to build the site automatically when connected to GitHub.
+# You do NOT need to type any build settings in the Netlify UI — it reads this file.
+[build]
+  base = "frontend"          # the website source lives in the frontend folder
+  command = "npm run build"  # how to build it
+  publish = "dist"           # the finished site ends up in frontend/dist
+
+[build.environment]
+  NODE_VERSION = "20"        # a Node version Vite is happy with
