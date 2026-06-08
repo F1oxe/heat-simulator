@@ -1,5 +1,5 @@
 :root {
-  --bg: #ffffff;
+  --bg: #080d1a;
   --void: #0b1020;
   --panel: #0e1426;
   --panel-2: #121a30;
@@ -71,7 +71,7 @@ body {
   font-weight: 800;
   line-height: 1.02;
   letter-spacing: -0.02em;
-  background: linear-gradient(120deg, #0e1426 0%, #274a86 40%, var(--accent) 120%);
+  background: linear-gradient(120deg, #dbe5ff 0%, #6ea8ff 40%, var(--accent) 120%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -80,7 +80,7 @@ body {
 .tagline {
   max-width: 580px;
   margin: 18px auto 0;
-  color: #46506e;
+  color: var(--text-dim);
   font-weight: 300;
   font-size: 1.02rem;
   line-height: 1.6;
